@@ -1,0 +1,22 @@
+CREATE TABLE ad_demo (
+  user_id                    STRING,
+  item_id                    STRING,
+  active_month               STRING,
+  item_total_buy             DOUBLE,
+  item_total_count           DOUBLE,
+  item_buy_rate              DOUBLE,
+  user_total_count           DOUBLE,
+  user_total_buy_count       DOUBLE,
+  user_buy_rate              DOUBLE,
+  if_collect                 STRING,
+  label                      STRING,
+  typed_user_total_count     DOUBLE,
+  typed_item_total_count     DOUBLE,
+  typed_active_month         DOUBLE,
+  typed_if_collect           DOUBLE,
+  typed_user_buy_rate        DOUBLE,
+  typed_user_total_buy_count DOUBLE,
+  typed_item_buy_rate        DOUBLE,
+  typed_item_total_buy       DOUBLE,
+  typed_label                DOUBLE
+);
